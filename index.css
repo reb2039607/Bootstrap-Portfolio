@@ -18,6 +18,10 @@ body {
     margin: 0 auto;
     clear: both;
   }
+
+  .d-flex {
+      margin: 0 auto;
+  }
   
   h1,
   h2,
@@ -54,9 +58,10 @@ body {
   
   #masthead {
     position: fixed;
-    float: right;
+    float: left;
     z-index: 99;
     width: 100%;
+    /* max-width: 960px; */
     margin: 0 0 30px;
     overflow: auto;
     color: #ffffff;
@@ -77,16 +82,17 @@ body {
     text-decoration: none;
     background: #4aaaa5;
     /* padding-right: 50px; this makes it move within the green box*/
-    margin-right: 200px;
+    margin-right: 1200px;
   }
   
   nav {
     /* float: right; */
-    margin-top: 25px;
+    margin: 0px;
   }
   
   nav a {
     display: inline-block;
+    /* max-width: 960px; */
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
