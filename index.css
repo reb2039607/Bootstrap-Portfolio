@@ -56,6 +56,10 @@ body {
   
   /* header */
   
+/* can we use the Display utility to create the breaking points? */
+
+
+
   #masthead {
     position: fixed;
     float: left;
@@ -82,7 +86,7 @@ body {
     text-decoration: none;
     background: #4aaaa5;
     /* padding-right: 50px; this makes it move within the green box*/
-    margin-right: 1200px;
+    margin-right: 500px;
   }
   
   nav {
@@ -148,7 +152,7 @@ body {
 
 
 
-  @media (max-width: 980px) {
+  /* @media (max-width: 980px) {
 
 
-  }
+  } */

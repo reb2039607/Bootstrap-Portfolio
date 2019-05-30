@@ -54,6 +54,7 @@ h3 {
 
 #masthead {
   position: fixed;
+  float: left;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
@@ -65,6 +66,7 @@ h3 {
 
 #logo {
   float: left;
+  /* clear: both; */
   width: 250px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -75,11 +77,12 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
+  margin-right: 500px;
 }
 
 nav {
-  float: right;
-  margin-top: 25px;
+  /* float: right; */
+  margin: 0px;
 }
 
 nav a {
