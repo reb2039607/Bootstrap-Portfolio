@@ -108,6 +108,10 @@ body {
   nav a:first-child {
     border-left: 0 none;
   }
+
+  nav a:last-child {
+    border-right: 0 none;
+  }
   
   /* footer */
   
